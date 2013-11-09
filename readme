@@ -41,8 +41,8 @@ COPYRIGHT
 
 INOF
 =====================================================================
--- www.guetsec.org是我在windows下用最新版ipclient和1.81版pyIpclient
--- 的抓包得到的数据
+-- www.guetsec.org 是我在windows下用最新版ipclient和在Linux下用1.81版pyIpclient
+-- 抓包得到的数据，仅供参考
 
 TODO
 ======================================================================
