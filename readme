@@ -33,8 +33,8 @@ COPYRIGHT
 >> 但由于现在学校的ipclient服务器版本已经更新到了1.85
 >> 1.81版已经不能继续使用
 >> 经过在windows下用官方的最新版ipclient抓包
->> 以及用ganxiangle@gmail.com
->> 学长编写的1.81版的pyIpclient抓包分析
+>> 以及用ganxiangle@gmail.com学长
+>> 编写的1.81版的pyIpclient抓包分析
 >> 得到了升级后的整个数据包发送的变更信息，在1.81版的pyIpclient
 >> 的基础上，重新进行了封包，测试，得到1.85版可用的pyIpClient
 >> 引用ganxiangle@gmail.com学长的话，“pyIpclient仅供学习，供\
@@ -45,31 +45,31 @@ USAGE
 << Oh, before use pyIpclient.py you must get your mac address
 << ( ah~, you can Open terminal and type command <ifconfig> to get
 << your mac address, it is look like: xx:xx:xx:xx:xx:xx ),
-<< and replace my mac_address which is at line 60 in the
-<< pyIpclient.py with your mac address.
+<< and replace the test mac address which is at the line 60 in the
+<< file pyIpclient.py with your mac address.
 << If you are a Mac OS user, maybe you should install the
-<< pygtk modole in the next. It can be downloaded from
+<< pyGTK modole in the next. It can be downloaded from
 << (tar: https://wiki.python.org/moin/PyGtk/ ||
 << pkg: http://sourceforge.net/projects/zero-install/files/PyGTK/2.24.0/).
 << And then, Open terminal and type command <python pyIpclient.py>
-<< and enter
+<< and enter.
 
 INOF
 ======================================================================
--- www.guetsec.org 是我在windows下用最新版ipclient和在Linux下
+-- 文件 www.guetsec.org 是我在windows下用最新版ipclient和在Linux下
 -- 用1.81版pyIpclient抓包得到的数据，仅供参考
 
 TODO
 ======================================================================
 ++ 检查版本是否有更新（不会真的把新的Windows版本下载下来）
 ++ 自动登录后自动隐藏到任务栏
-++ TrayIcon的右键popup菜单，要有eixt项
+++ TrayIcon的右键popup菜单，要有exit项
 
 
 ----------------------------淫荡的分割线-------------------------------
 ** 在这里我不忘给GUET Sec打个广告
 ** GUET Sec是桂林电子科技大学信息安全协会的简称，2013年由我
-** 和其他几名信息安全爱好者一起创立，隶属于现代教育技术中心
+** 和其他几名信息安全爱好者一同创立，隶属于现代教育技术中心
 ** 也就是网络中心，主要是负责维护校园网的信息安全，以及整合
 ** 全校的信息安全人才，与信息安全公司建立合作，搭建交流的平台
 ** 协会里面聚集了一些信息安全的牛人，在他们身上时刻能看到黑客精神
