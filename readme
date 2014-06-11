@@ -44,7 +44,7 @@ USAGE
 ======================================================================
 <> Oh, before use pyIpclient.py you must get your mac address
 <> ( ah~, you can Open terminal and type command <ifconfig> to get
-<> your mac address, it is look like: xx:xx:xx:xx:xx:xx ),
+<> your mac address, it is looked like: xx:xx:xx:xx:xx:xx ),
 <> and replace the test mac address which is at the line 60 in the
 <> file pyIpclient.py with your mac address.
 <> If you are a Mac OS user, maybe you should install the
