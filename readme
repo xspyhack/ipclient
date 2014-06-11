@@ -17,6 +17,7 @@
 ## @author  xspyhack@gmail.com                             ##
 ## @team    GUET Sec                                       ##
 ## @brief   python implementation of Ipclient              ##
+## @usage   python pyIpclient.py                           ##
 #############################################################
 
 COPYRIGHT
