@@ -113,9 +113,9 @@ TIME = {
     'REFRESH ONLINE INTERVAL': 15 * 1000
 }
 MSG = {
-    'TIMEOUT' : u'连接服务器失败',
-    'INVALID PACKET' : u'接收到错误的数据包',
-    'AUTOLOGIN FAIL' : u'自动登录失败',
+    'TIMEOUT' : u'failed to connect to server',
+    'INVALID PACKET' : u'received an error package',
+    'AUTOLOGIN FAIL' : u'failed to auto login',
     'SUCCESS' : u''
 }
 
@@ -133,7 +133,7 @@ CONFIG_FILE = {
     'FILE IN CURRENT DIR': CONF['SOFTWARE DIR'] + CONF['CONFIG FILE NAME'],
     'FILE IN HOME DIR'   : '~/' + CONF['CONFIG FILE NAME'],
     'NOW FILE IN': 0x1,
-    'FILE SAVED' :  u'配置文件已保存'
+    'FILE SAVED' :  u'the configuration file had saved'
 }
 BZ2_ICON = ('BZh91AY&SY\xd8>\xa4\x04\x00\x00\x08\xf4\xdd\xfe\xe4\xc5\x00P@D'   +
             '\x84@\xcc\xc0\xc8\x80\x10@\x08D\x84\x00@@\xcc\xb0\x01z\xda\xad'   +
@@ -722,24 +722,24 @@ class pyGIpclient(Ipclient):
         vbox.pack_start(hbox_input, False, False, 0)
         vbox.pack_start(separator,  False, False, 0)
         vbox.pack_start(hbox_btns,  False, False, 0)                
-        self.label_msg   = gtk.Label(u'新闻')
+        self.label_msg   = gtk.Label(u'News')
         self.label_ip    = gtk.Label('255.255.255.255')
-        self.label_flow  = gtk.Label(u' 流量: 0.00KB')
-        self.label_money = gtk.Label(u' 剩余金额: 0.00元')       
+        self.label_flow  = gtk.Label(u' flows: 0.00KB')
+        self.label_money = gtk.Label(u' balances: ¥0.00元')       
         self.label_guetsec = gtk.Label('GUET Sec')
-        label_user  = gtk.Label(u' 用户:')
-        label_pswd  = gtk.Label(u' 密码:')
+        label_user  = gtk.Label(u' username:')
+        label_pswd  = gtk.Label(u' password:')
         self.entry_user  = gtk.Entry(max = 15)        
         self.entry_pswd  = gtk.Entry(max = 20)
         self.entry_pswd.set_visibility(False)
-        self.btn_remember   = gtk.CheckButton(u'记住用户', False)
-        self.btn_autologin  = gtk.CheckButton(u'自动登录', False)                
+        self.btn_remember   = gtk.CheckButton(u'remember', False)
+        self.btn_autologin  = gtk.CheckButton(u'auto login', False)                
         self.btn_remember.connect ('clicked', self.btn_togg_clicked)
         self.btn_autologin.connect('clicked', self.btn_togg_clicked)        
-        btn_open = gtk.Button(u' 开放 ')
-        btn_stop = gtk.Button(u' 停止 ')
-        btn_hide = gtk.Button(u' 隐藏 ')
-        btn_exit = gtk.Button(u' 退出 ')        
+        btn_open = gtk.Button(u' open ')
+        btn_stop = gtk.Button(u' stop ')
+        btn_hide = gtk.Button(u' hide ')
+        btn_exit = gtk.Button(u' quit ')        
         btn_open.connect('clicked', self.btn_open_clicked)
         btn_stop.connect('clicked', self.btn_stop_clicked)
         btn_hide.connect('clicked', self.btn_hide_clicked)
