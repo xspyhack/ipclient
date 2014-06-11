@@ -40,6 +40,16 @@ COPYRIGHT
 >> 引用ganxiangle@gmail.com学长的话，“pyIpclient仅供学习，供\
 >> Linux/Mac用户，Python用户玩玩”。
 
+USAGE
+======================================================================
+<< Oh, before use pyIpclient.py you must get your mac address
+<< ( ah~, you can Open terminal and type command <ifconfig> to get
+<< your mac address, it is look like: xx:xx:xx:xx:xx:xx ),
+<< and replace my mac_address which is at line 60 in the
+<< pyIpclient.py with your mac address.
+<< And then, Open terminal and type command <python pyIpclient.py>
+<< and enter
+
 INOF
 ======================================================================
 -- www.guetsec.org 是我在windows下用最新版ipclient和在Linux下
