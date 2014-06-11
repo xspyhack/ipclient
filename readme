@@ -42,17 +42,17 @@ COPYRIGHT
 
 USAGE
 ======================================================================
-<< Oh, before use pyIpclient.py you must get your mac address
-<< ( ah~, you can Open terminal and type command <ifconfig> to get
-<< your mac address, it is look like: xx:xx:xx:xx:xx:xx ),
-<< and replace the test mac address which is at the line 60 in the
-<< file pyIpclient.py with your mac address.
-<< If you are a Mac OS user, maybe you should install the
-<< pyGTK modole in the next. It can be downloaded from
-<< (tar: https://wiki.python.org/moin/PyGtk/ ||
-<< pkg: http://sourceforge.net/projects/zero-install/files/PyGTK/2.24.0/).
-<< And then, Open terminal and type command <python pyIpclient.py>
-<< and enter.
+<> Oh, before use pyIpclient.py you must get your mac address
+<> ( ah~, you can Open terminal and type command <ifconfig> to get
+<> your mac address, it is look like: xx:xx:xx:xx:xx:xx ),
+<> and replace the test mac address which is at the line 60 in the
+<> file pyIpclient.py with your mac address.
+<> If you are a Mac OS user, maybe you should install the
+<> pyGTK modole in the next. It can be downloaded from
+<> (tar: https://wiki.python.org/moin/PyGtk/ ||
+<> pkg: http://sourceforge.net/projects/zero-install/files/PyGTK/2.24.0/).
+<> And then, Open terminal and type command <python pyIpclient.py>
+<> and enter.
 
 INOF
 ======================================================================
