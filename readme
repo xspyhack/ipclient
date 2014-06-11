@@ -47,6 +47,10 @@ USAGE
 << your mac address, it is look like: xx:xx:xx:xx:xx:xx ),
 << and replace my mac_address which is at line 60 in the
 << pyIpclient.py with your mac address.
+<< If you are a Mac OS user, maybe you should install the
+<< pygtk modole in the next. It can be downloaded from
+<< (tar: https://wiki.python.org/moin/PyGtk/ ||
+<< pkg: http://sourceforge.net/projects/zero-install/files/PyGTK/2.24.0/).
 << And then, Open terminal and type command <python pyIpclient.py>
 << and enter
 
