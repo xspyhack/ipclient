@@ -57,7 +57,8 @@ SERVER = {
 HOST = {
     'CONTROL PORT': 5200,
     'REFRESH PORT': 5201,
-    'MAC ADDR'    : '20-6a-8a-54-26-cb' # this is my mac_addr
+    'MAC ADDR'    : '68-f0-1d-cc-d8-f9' # This is mac address just for test.
+                                        # You need to replace it with your mac address if you want to use this application.
 }
 CONTROL_CMD = {
     'CLOCK SYN'            : '\x1e',
@@ -725,7 +726,7 @@ class pyGIpclient(Ipclient):
         self.label_msg   = gtk.Label(u'News')
         self.label_ip    = gtk.Label('255.255.255.255')
         self.label_flow  = gtk.Label(u' flows: 0.00KB')
-        self.label_money = gtk.Label(u' balances: ¥0.00元')       
+        self.label_money = gtk.Label(u' balances: ¥0.00')       
         self.label_guetsec = gtk.Label('GUET Sec')
         label_user  = gtk.Label(u' username:')
         label_pswd  = gtk.Label(u' password:')
