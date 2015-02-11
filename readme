@@ -43,18 +43,18 @@ COPYRIGHT
 USAGE
 ======================================================================
 <> Oh, before use pyIpclient.py you must get your mac address
-<> ( ah~, you can Open terminal and type command <ifconfig> to get
-<> your mac address, it is looked like: xx:xx:xx:xx:xx:xx ),
+<> ( ah~, you can open your terminal and type command <ifconfig> to get
+<> your mac address, it looks like: xx:xx:xx:xx:xx:xx ),
 <> and replace the test mac address which is at the line 60 in the
 <> file pyIpclient.py with your mac address.
-<> If you are a Mac OS user, maybe you should install the
+<> If you are a Mac OS X user, maybe you should install the
 <> pyGTK modole in the next. It can be downloaded from
 <> (tar: https://wiki.python.org/moin/PyGtk/ ||
-<> pkg: http://sourceforge.net/projects/zero-install/files/PyGTK/2.24.0/).
-<> And then, Open terminal and type command <python pyIpclient.py>
+<> pkg: http://sourceforge.net/projects/zero-install/files/PyGTK/2.24.0/org.pygtk.macosx.pkg).
+<> And then, open terminal and type command <python pyIpclient.py>
 <> and enter.
 
-INOF
+INFO
 ======================================================================
 -- 文件 www.guetsec.org 是我在windows下用最新版ipclient和在Linux下
 -- 用1.81版pyIpclient抓包得到的数据，仅供参考
