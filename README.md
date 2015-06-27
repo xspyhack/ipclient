@@ -1,5 +1,4 @@
 # pyIpclient
-===============
 >
 @file    pyIpclient.py                                  
 @date    2013-11-08                                     
@@ -9,7 +8,6 @@
 @usage   python pyIpclient.py  
                       
 ## COPYRIGHT
-===============
 1. 本程序为桂林电子科技大学校园网出校器 Python 版本。
 2. 使用`Python`语言实现，图形界面使用 pyGTK 库。
 3. 需要`Python 2.x`环境和`pyGTK`库的支持,可以跨平台使用有登录，注销，自动登录，自动重连等原ipclient的功能。
@@ -21,18 +19,15 @@
 Linux/Mac用户，Python用户玩玩`。
 
 ## USAGE
-===============
 - **Oh, before use pyIpclient.py you must get your mac address**, ( ah~, you can open your terminal and type command `ifconfig` to get your mac address, it looks like: `xx:xx:xx:xx:xx:xx` ).
 - next, replace the test mac address which is at the _line 60_ in the file _pyIpclient.py_ with your mac address.
 - If you are a ***Mac OS X*** user, maybe you should install the pyGTK modole in the next. It can be downloaded from ([tar](https://wiki.python.org/moin/PyGtk/) || [pkg](http://sourceforge.net/projects/zero-install/files/PyGTK/2.24.0/org.pygtk.macosx.pkg)).
 - And then, open terminal and type command `python pyIpclient.py` and enter.
 
 ## INFO
-===============
 文件 _www.guetsec.org_ 是我在 windows 下用最新版 ipclient 和在 Linux 下用1.81版pyIpclient抓包得到的数据，仅供参考
 
 ## TODO
-===============
 + 检查版本是否有更新（不会真的把新的Windows版本下载下来）
 + 自动登录后自动隐藏到任务栏
 + TrayIcon的右键popup菜单，要有exit项
