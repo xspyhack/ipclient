@@ -8,15 +8,16 @@
 @usage   python pyIpclient.py  
                       
 ## COPYRIGHT
-1. 本程序为桂林电子科技大学校园网出校器 Python 版本。
+1. 本程序为桂林电子科技大学校园网出校器 Python 版本。(update: 2015-10-27日起被采用为桂林电子科技大学官方发布版，感谢认可)
 2. 使用`Python`语言实现，图形界面使用 pyGTK 库。
 3. 需要`Python 2.x`环境和`pyGTK`库的支持,可以跨平台使用有登录，注销，自动登录，自动重连等原ipclient的功能。
-4. 只是为了在Linux/Mac用而写的登录器，虽然本来也有Web版 ipclient
+4. 只是为了在 Linux/Mac 用而写的登录器，虽然本来也有Web版 ipclient
  和 client for linux ，但前者每次都要输入验证码，后者经反编译后发现只有简单的登录和刷新功能，没有注销，也没有获取用户流量和余额信息。
-5. pyIpclient 1.81 版本由[ganxiangle@gmail.com](https://github.com/lemacs)创作，但由于现在学校的 ipclient 服务器版本已经更新到了**1.85**，1.81版已经不能继续使用。
+5. pyIpclient 1.81 版本由 [ganxiangle@gmail.com](https://github.com/lemacs) 创作，但由于现在学校的 ipclient 服务器版本已经更新到了**1.85**，1.81版已经不能继续使用。
 6. 经过在 windows 下对官方的最新版 ipclient 抓包以及用 ganxiangle@gmail.com 学长编写的1.81版的 pyIpclient 抓包分析，得到了升级后的整个数据包发送的变更信息，在1.81版的 pyIpclient 的基础上，重新进行了封包，测试，得到1.85版可用的 pyIpClient 。
 7. 引用 ganxiangle@gmail.com 学长的话，`pyIpclient仅供学习，供
 Linux/Mac用户，Python用户玩玩`。
+8. Release under MIT license
 
 ## USAGE
 - **Oh, before use pyIpclient.py you must get your mac address**, ( ah~, you can open your terminal and type command `ifconfig` to get your mac address, it looks like: `xx:xx:xx:xx:xx:xx` ).
@@ -32,6 +33,7 @@ Linux/Mac用户，Python用户玩玩`。
 + 自动登录后自动隐藏到任务栏
 + TrayIcon的右键popup菜单，要有exit项
 
+-----
 
 ### -----淫荡的分割线-----
 
